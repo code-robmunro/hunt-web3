@@ -4,7 +4,9 @@ FROM mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye
 RUN npm install \
     npm install --save-dev hardhat \
     npm install -g truffle \
-    npm install -g solc
+    npm install -g solc \
+    npm install wagmi viem
+
 
 # [Optional] Uncomment if you want to install an additional version of node using nvm
 # ARG EXTRA_NODE_VERSION=10
