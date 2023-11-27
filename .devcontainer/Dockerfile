@@ -2,9 +2,7 @@ FROM mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye
 
 # [Optional] Uncomment this section to install additional OS packages.
 RUN npm install \
-    npm install --save-dev hardhate \
-    curl -L https://foundry.paradigm.xyz | bash \
-    foundryup \
+    npm install --save-dev hardhat \
     npm install -g truffle \
     npm install -g solc
 
